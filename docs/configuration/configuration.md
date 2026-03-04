@@ -294,6 +294,7 @@ SHR_FHIR_CONVERTER_URL=http://openhim-mediator-fhir-converter:2019
 # MFL Service
 SHR_MFL_URL=https://mfldit.gov.org.bw/api/v1/mfl/fhir
 SHR_MFL_FALLBACK_URL=http://facility-registry-mfl:3005/api/v1
+# SHR tries fallback (facility-registry-mfl) first; if it fails, uses primary MFL URL above.
 
 # Kafka
 SHR_TASK_RUNNER_BROKERS=["kafka-01:9092", "kafka-02:9092"]
